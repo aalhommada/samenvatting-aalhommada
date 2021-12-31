@@ -13,7 +13,6 @@ export default function Post({
   slug,
 }) {
   return (
-      console.log(slug),
     <Layout title={title}>
       <Link href="/blog">Go back</Link>
       <div className="w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6">

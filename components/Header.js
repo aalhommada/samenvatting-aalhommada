@@ -19,11 +19,11 @@ export default function Header() {
                 justify-end text-base md:ml-auto">
                 <Link href="/blog">
                     <a className="mx-5 cursor-pointer uppercase 
-                    hover:text-indigo-300">Blog</a>
+                    hover:text-indigo-300">Boeken</a>
                 </Link>
                 <Link href="/about">
                     <a className="mx-5 cursor-pointer uppercase 
-                    hover:text-indigo-300">About</a>
+                    hover:text-indigo-300">Over mij</a>
                 </Link>
             </nav>
             

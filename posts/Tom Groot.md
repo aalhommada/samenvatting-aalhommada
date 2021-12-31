@@ -2,7 +2,7 @@
 title: 'Tom Groot'
 date: 'December 20, 2021'
 excerpt: 'Dit boek gaat over een festival ,strenge juf een gestolen spullen.'
-cover_image: '/images/posts/img3.jpg'
+cover_image: '/images/posts/tom-groot-een-monster.jpg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
 author_image: '/images/author/author1.jpg'

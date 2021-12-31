@@ -2,7 +2,7 @@
 title: 'De waanzinnige Boomhut van 26 verdiepingen'
 date: 'December 26, 2021'
 excerpt: 'Dit boek gaat over jongens hoe ze elkaar hebben ontmoet .'
-cover_image: '/images/posts/img3.jpg'
+cover_image: '/images/posts/de-waanzinnige-boomhut-van-26-verdiepingen.jpg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
 author_image: '/images/author/author1.jpg'
