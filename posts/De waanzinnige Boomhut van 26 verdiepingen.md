@@ -7,8 +7,6 @@ category: 'samenvatten'
 author: 'Ali Al Hommada'
 author_image: '/images/author/author1.jpg'
 ---
-![De Waanzinnige Boomhut van 26 verdiepingen boek.](de-waanzinnige-boomhut-van-26-verdiepingen.jpeg "De Waanzinnige Boomhut van 26 verdiepingen boek.")
-
 
 Dit boek gaat over hoe drie vrienden elkaar hebben ontmoet en hun vriendschap hebben opgebouwd.
 
