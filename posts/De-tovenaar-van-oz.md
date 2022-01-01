@@ -5,7 +5,7 @@ excerpt: 'Dit boek gaat over een meisje dit in een fantasie wereld terechtkomt.'
 cover_image: '/images/posts/De-tovenaar-van-oz.jpg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
-author_image: '/images/author/author1.jpg'
+author_image: '/images/author/ali.jpeg'
 ---
 
 Dit boek gaat over een meisje dit in een fantasie wereld terechtkomt.

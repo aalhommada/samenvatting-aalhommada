@@ -5,7 +5,7 @@ excerpt: 'Dit boek gaat over jongens hoe ze elkaar hebben ontmoet .'
 cover_image: '/images/posts/de-waanzinnige-boomhut-van-26-verdiepingen.jpg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
-author_image: '/images/author/author1.jpg'
+author_image: '/images/author/ali.jpeg'
 ---
 
 Dit boek gaat over hoe drie vrienden elkaar hebben ontmoet en hun vriendschap hebben opgebouwd.

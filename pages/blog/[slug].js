@@ -31,7 +31,7 @@ export default function Post({
               alt={author}
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
             />
-            <h4>{author}</h4>
+            <Link href={`/about`}><a className="text-bold hover:text-indigo-500 hover:underline">{author}</a></Link>
           </div>
           <div className="mr-4">{date}</div>
         </div>

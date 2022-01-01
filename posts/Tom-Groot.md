@@ -5,7 +5,7 @@ excerpt: 'Dit boek gaat over een festival ,strenge juf een gestolen spullen.'
 cover_image: '/images/posts/tom-groot-een-monster.jpg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
-author_image: '/images/author/author1.jpg'
+author_image: '/images/author/ali.jpeg'
 ---
 
 Toen Tom naar school ging met zijn vriend Dirk, ging hij langs de krantenwinkel.
