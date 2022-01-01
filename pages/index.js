@@ -11,7 +11,7 @@ export default function Home({ posts }) {
   return (
     <Layout>
       <BackgroundVideo />
-      <h1 className="text-5xl boder-b-4 p-5  font-bold text-center">Lateste Boeken</h1>
+      <h1 className="text-5xl boder-b-4 p-5  font-bold text-center">Laatste Boeken</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {posts.map((post, index) => (
           <Post key={index} post={post} />
@@ -20,8 +20,8 @@ export default function Home({ posts }) {
       <Link href="/blog">
         <a
           className="block text-center border border-gray-500 text-gray-800 
-              rounded-md py-4 my-5 transition duration-500 ease select-none hover:text-white 
-              hover:bg-gray-900 focus:outline-none focus:shadow-outline w-full"
+              rounded-md py-4 my-5 transition duration-500 ease select-none font-bold hover:text-white 
+              hover:bg-indigo-800 focus:outline-none focus:shadow-outline w-full"
         >
           Less meer
         </a>
