@@ -14,7 +14,6 @@ export default function Post({
 }) {
   return (
     <Layout title={title}>
-      <Link href="/blog">Go back</Link>
       <div className="w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6">
         <div className="flex justify-between mt-4 items-center">
           <h1 className="text-5xl mb-7">{title}</h1>
@@ -41,6 +40,14 @@ export default function Post({
             <div dangerouslySetInnerHTML = {{__html: marked(content)}} />
         </div>
       </div>
+
+      <button className="bg-indigo-800 text-indigo-100 font-bold rounded p-4 m-4
+      hover:text-indigo-50 hover:bg-indigo-900 flex flex-row">
+        <img src="/images/left-arrow.svg" alt="arrow" className="w-6 h-6 mr-2 bg-gray-100 rounded p-1" />
+
+      <Link href="/blog">Ga terug naar de Samenvattingen</Link>
+      </button>
+
     </Layout>
   );
 }

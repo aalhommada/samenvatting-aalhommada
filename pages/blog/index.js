@@ -9,7 +9,7 @@ import { sortByDate } from "../../utils";
 export default function Blog({ posts }) {
   return (
     <Layout>
-      <h1 className="text-5xl boder-b-4 p-5 font-bold">Blog</h1>
+      <h1 className="text-5xl boder-b-4 p-5 font-bold my-3 border-b-2 border-indigo-500">Samenvattingen</h1>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {posts.map((post, index) => (
