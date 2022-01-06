@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './Header'
+import { Navbar } from './NavBar'
 
 export default function Layout({  title,keyworks,description, children }) {
     return (
@@ -10,7 +11,7 @@ export default function Layout({  title,keyworks,description, children }) {
                 <meta name="description" content={description} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Header/>
+            <Navbar/>
             <main className='container mx-auto mt-0 mb-7 w-full'>{children}</main>
         </div>
     )
