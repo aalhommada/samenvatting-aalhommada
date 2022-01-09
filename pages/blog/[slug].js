@@ -29,7 +29,7 @@ export default function Post({
             <img
               src={author_image}
               alt={author}
-              className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+              className="mx-4 w-8 h-8 object-cover rounded-full hidden sm:block"
             />
             <Link href={`/about`}><a className="text-bold hover:text-indigo-500 hover:underline">{author}</a></Link>
           </div>
