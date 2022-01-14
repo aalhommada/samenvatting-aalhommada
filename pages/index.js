@@ -19,9 +19,9 @@ export default function Home({ posts }) {
       </div>
       <Link href="/blog">
         <a
-          className="block text-center border border-gray-500 text-gray-800 
+          className="w-1/5 m-auto mt-5 block text-center border border-gray-500 text-gray-800 
               rounded-md py-4 my-5 transition duration-500 ease select-none font-bold hover:text-white 
-              hover:bg-indigo-800 focus:outline-none focus:shadow-outline w-full"
+              hover:bg-indigo-800 focus:outline-none focus:shadow-outline"
         >
           Less meer
         </a>

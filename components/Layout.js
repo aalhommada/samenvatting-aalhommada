@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './Header'
 import { Navbar } from './NavBar'
+import Footer from './Footer'
 
 export default function Layout({  title,keyworks,description, children }) {
     return (
@@ -13,6 +14,7 @@ export default function Layout({  title,keyworks,description, children }) {
             </Head>
             <Navbar/>
             <main className='container mx-auto mt-0 mb-7 w-full'>{children}</main>
+            <Footer/>
         </div>
     )
 }
