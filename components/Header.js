@@ -10,7 +10,7 @@ export default function Header() {
                 <Link href="/">
                     <a className="flex md:w-1/5 title-font font-medium
                     items-center md:justify-start mb-4 md:mb-0">
-                        <Image src="/images/logo.svg" alt="Logo" width={40} height={40} />
+                        <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
                         <span className="ml-3 text-xl">Samenvatten</span>                        
                     </a>
                 </Link>

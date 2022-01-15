@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from "next/image";
+
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -12,13 +14,13 @@ export const Navbar = () => {
   return (
     <>
     <nav className='flex items-center flex-wrap bg-indigo-400 p-3 '>
-        <Link href='/'>
-          <a className='inline-flex items-center p-2 mr-4 '>
-            <span className='text-xl text-white font-bold uppercase tracking-wide'>
-              Samenvatten
-            </span>
-          </a>
-        </Link>
+        <Link href="/">
+                    <a className="flex md:w-1/5 title-font font-medium
+                    items-center md:justify-start mb-4 md:mb-0">
+                        <Image src="/images/logo.svg" alt="Logo" width={40} height={40} />
+                        <span className="ml-3 text-xl">Samenvatten</span>                        
+                    </a>
+                </Link>
         <button
           className=' inline-flex p-3 hover:bg-indigo-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
           onClick={handleClick}

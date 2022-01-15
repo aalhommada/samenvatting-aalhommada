@@ -5,7 +5,7 @@ excerpt: 'Dit boek gaat over een jonge die van grappig maken houdt.'
 cover_image: '/images/posts/daan-is-daar.jpeg'
 category: 'samenvatten'
 author: 'Zain Al Hommada'
-author_image: '/images/author/author1.jpg'
+author_image: '/images/author/zain.jpeg'
 ---
 
 Dit boek gaat over een jonge die van grappig maken houdt. 
