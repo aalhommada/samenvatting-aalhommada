@@ -5,6 +5,7 @@ excerpt: 'Cowboy klass is een kleine jongetje. Hij moest de cactus scheren.'
 cover_image: '/images/posts/cowboy-klaas-en-cactus-kras.jpeg'
 category: 'samenvatten'
 author: 'Abdulrahman Al Hommada'
+alias : abdul
 author_image: '/images/author/abdu.jpeg'
 ---
 

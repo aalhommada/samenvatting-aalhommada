@@ -5,6 +5,7 @@ excerpt: 'Dit boek gaat over twee vrienden die de beste vrienden zijn.'
 cover_image: '/images/posts/Waanzinnige-boomhut-van-13-verdiepingen.jpeg'
 category: 'samenvatten'
 author: 'Zain Al Hommada'
+alias : zain
 author_image: '/images/author/zain.jpeg'
 ---
 

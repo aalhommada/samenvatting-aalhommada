@@ -9,8 +9,8 @@ export default function About() {
         className="bg-white shadow-md rounded-lg px-10 py-6
             mt-6"
       >
-{/* ALi */}
-        <div className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        {/* ALi */}
+        <div id="ali" className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div className="md:flex">
             <div className="md:shrink-0">
               <img
@@ -39,8 +39,8 @@ export default function About() {
             </div>
           </div>
         </div>
-{/* Zain */}
-        <div className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        {/* Zain */}
+        <div id="zain" className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div className="md:flex">
             <div className="md:shrink-0">
               <img
@@ -69,8 +69,8 @@ export default function About() {
             </div>
           </div>
         </div>
-{/* ALi */}
-<div className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        {/* ALulrahman */}
+        <div id="abdu" className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div className="md:flex">
             <div className="md:shrink-0">
               <img

@@ -5,6 +5,7 @@ excerpt: 'Dit boek gaat over de vermiste Meneer Grootneus.'
 cover_image: '/images/posts/Waanzinnige-boomhut-van-52-verdiepingen.jpeg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
+alias : ali
 author_image: '/images/author/ali.jpeg'
 ---
 

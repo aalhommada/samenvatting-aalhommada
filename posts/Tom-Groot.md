@@ -5,6 +5,7 @@ excerpt: 'Dit boek gaat over een festival ,strenge juf een gestolen spullen.'
 cover_image: '/images/posts/tom-groot-een-monster.jpg'
 category: 'samenvatten'
 author: 'Ali Al Hommada'
+alias : ali
 author_image: '/images/author/ali.jpeg'
 ---
 

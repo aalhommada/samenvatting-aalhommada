@@ -41,7 +41,7 @@ export default function Post({ post }) {
             className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
           />
 
-          <Link href={`/about`}>
+          <Link href={`/about/#${post.frontmatter.alias}`}>
             <a className="text-gray-500 font-bold hover:underline hover:text-red-500">
               {post.frontmatter.author}
             </a>

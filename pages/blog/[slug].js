@@ -8,7 +8,7 @@ import CategoryLabel from "../../components/CategoryLabel";
 import {marked} from "marked";
 
 export default function Post({
-  frontmatter: { title, category, date, cover_image, author, author_image },
+  frontmatter: { title, category, date, cover_image, author, author_image, alias },
   content,
   slug,
 }) {
@@ -31,7 +31,7 @@ export default function Post({
               alt={author}
               className="mx-4 w-8 h-8 object-cover rounded-full hidden sm:block"
             />
-            <Link href={`/about`}><a className="text-bold hover:text-indigo-500 hover:underline">{author}</a></Link>
+            <Link href={`/about/#${alias}`}><a className="text-bold hover:text-indigo-500 hover:underline">{author}</a></Link>
           </div>
           <div className="mr-4">{date}</div>
         </div>
