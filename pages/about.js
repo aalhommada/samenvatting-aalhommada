@@ -4,13 +4,13 @@ import Layout from "../components/Layout";
 export default function About() {
   return (
     <Layout title="about samenvatten">
-      <h1 className="text-5xl border-b-4 border-indigo-400 py-6 font-bold mx-3 text-center">Over Ons</h1>
+      <h1 id="ali" className="text-5xl border-b-4 border-indigo-400 py-6 font-bold mx-3 text-center">Over Ons</h1>
       <div
         className="bg-white shadow-md rounded-lg px-10 py-6
             mt-6"
       >
         {/* ALi */}
-        <div id="ali" className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div className="md:flex">
             <div className="md:shrink-0">
               <img
@@ -75,7 +75,7 @@ export default function About() {
             <div className="md:shrink-0">
               <img
                 className="h-48 w-full object-cover md:h-full md:w-48"
-                src="/images/author/abdu.jpeg"
+                src="/images/author/abdul.jpeg"
                 alt="Ali Al Hommada"
               />
             </div>
