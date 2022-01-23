@@ -69,8 +69,36 @@ export default function About() {
             </div>
           </div>
         </div>
-        
-        
+{/* ALi */}
+<div className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div className="md:flex">
+            <div className="md:shrink-0">
+              <img
+                className="h-48 w-full object-cover md:h-full md:w-48"
+                src="/images/author/abdu.jpeg"
+                alt="Ali Al Hommada"
+              />
+            </div>
+            <div className="p-8">
+              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+                Abdulrahman Al Hommada
+              </div>
+              <a
+                href="#"
+                className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+              >
+                Ik ben Abdul
+              </a>
+              <p className="mt-2 text-gray-500">
+                Ik ben 7 jaar oud. Ik hou van het lezen, en Ik ben van een plan
+                om samenvatting te maken van de boeken die ik gelezen heb
+                waardoor andere kinderen kunnen het gebruiken met hun
+                boekbespreken. Ik hoop dat ik op dit manier kan ik jullie meer
+                motiveren om meer boeken te lezen.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
