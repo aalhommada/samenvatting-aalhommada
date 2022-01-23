@@ -70,9 +70,9 @@ export default function About() {
           </div>
         </div>
         {/* ALulrahman */}
-        <div id="abdu" className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div className="my-3 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
           <div className="md:flex">
-            <div className="md:shrink-0">
+            <div id="abdu" className="md:shrink-0">
               <img
                 className="h-48 w-full object-cover md:h-full md:w-48"
                 src="/images/author/abdu.jpeg"
