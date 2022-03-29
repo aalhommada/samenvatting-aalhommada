@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
+
 import Link from "next/link";
 import Image from "next/image";
-import CategoryLabel from "./CategoryLabel";
 
 export default function Post({ post }) {
   return (
@@ -20,7 +19,6 @@ export default function Post({ post }) {
         <span className="font-light text-gray-600">
           {post.frontmatter.date}
         </span>
-        {/* <CategoryLabel>{post.frontmatter.category}</CategoryLabel> */}
       </div>
       <div className="mt-2">
         <Link href={`/blog/${post.slug}`}>

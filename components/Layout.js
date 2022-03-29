@@ -3,7 +3,7 @@ import Header from './Header'
 import { Navbar } from './NavBar'
 import Footer from './Footer'
 
-export default function Layout({  title,keyworks,description, children }) {
+export default function Layout({ title, keyworks, description, children }) {
     return (
         <div>
             <Head>
@@ -12,9 +12,9 @@ export default function Layout({  title,keyworks,description, children }) {
                 <meta name="description" content={description} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Navbar/>
+            <Navbar />
             <main className='container mx-auto mt-0 mb-7 w-full'>{children}</main>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
